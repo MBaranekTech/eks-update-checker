@@ -1,6 +1,10 @@
 # EKS Update Checker
 
-A Bash script that checks for available updates on an AWS EKS cluster and its managed components — including CoreDNS, kube-proxy, vpc-cni, node groups, and Fargate profiles.
+A Bash script that checks for available updates on an AWS EKS cluster and its managed components — including CoreDNS, kube-proxy, vpc-cni, node groups, and Fargate profiles. 
+
+Upstream Kubernetes releases a new minor version roughly every 4 months (3 releases per year).
+
+You can check update via GUI EKS dashboard in AWS or via LENS.
 
 ## Features
 
